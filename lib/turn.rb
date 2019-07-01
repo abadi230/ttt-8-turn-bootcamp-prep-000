@@ -11,7 +11,7 @@ def input_to_index(input)
 end
 
 def valid_move?(board, index)
-  
+  !position_taken?(board, index) && index <= board.length
 end
 
 def move
