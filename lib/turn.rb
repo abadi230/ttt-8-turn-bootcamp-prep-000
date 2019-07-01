@@ -14,8 +14,8 @@ def valid_move?(board, index)
   !position_taken?(board, index) && index <= board.length
 end
 
-def move
-  
+def move(board, position, char = "X")
+  board[position] = char
 end
 
 def turn 
