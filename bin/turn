@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 require_relative "../lib/turn.rb"
 
+puts "choose movement 'type between 1-9'"
+input
