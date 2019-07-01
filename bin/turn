@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/turn.rb"
 
+board = Array.new(9, " ")
 puts "choose movement 'type between 1-9'"
 input = gets.strip
 input_to_index(input)
